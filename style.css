@@ -1,10 +1,25 @@
-﻿
+﻿body{
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
- 
+
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+#myInput{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  width:100%;
+}
+
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
